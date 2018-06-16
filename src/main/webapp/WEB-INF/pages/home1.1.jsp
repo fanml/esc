@@ -31,6 +31,12 @@
 
 
     <link rel="stylesheet" href="assets/style.css">
+    <style type="text/css">
+        .img-responsive{
+            /*width: 207px;*/
+            height: 200px;
+        }
+    </style>
 
 <%--<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>--%>
 <script type="text/javascript">
@@ -148,52 +154,41 @@ $(document).ready(function(){
                             <div class="col-sm-10">
                                 <select style="width: 260px; margin-left:20px;" class="form-control m-b" id="brand" name="brand">
                                     <optgroup label="热门车型">
-                                        <option selected="selected">宝马</option>
-                                        <option>奔驰</option>
-                                        <option>奥迪</option>
-                                        <option>大众</option>
-                                        <option>福特</option>
-                                        <option>丰田</option>
-                                        <option>本田</option>
-                                        <option>日产</option>
+                                        <option selected="selected">中国一拖</option>
+                                        <option>东方红</option>
+                                        <option>福田雷沃</option>
+                                        <option>约翰迪尔</option>
+                                        <option>五征</option>
+                                        <option>久保田</option>
+                                        <option>中联重机</option>
+                                        <option>东风农机</option>
                                     </optgroup>
                                     <optgroup label="A">
-                                        <option>奥迪</option>
-                                        <option>安驰</option>
+                                        <option>勇猛机械</option>
+                                        <option>沐河</option>
                                     </optgroup>
                                     <optgroup label="B">
-                                        <option>别克</option>
+                                        <option>巨明</option>
                                         <option>比亚迪</option>
                                     </optgroup>
-                                    <optgroup label="C">
-                                        <option>长安</option>
-                                        <option>川汽野马</option>
-                                    </optgroup>
-                                    <optgroup label="D">
-                                        <option>东风</option>
-                                        <option>东南</option>
-                                    </optgroup>
-                                    <optgroup label="F">
-                                        <option>福特</option>
-                                        <option>法拉利</option>
-                                    </optgroup>
+
                                 </select>
-                                <select style="width: 260px; margin-left:20px;" name="car_name" id="car_name" class="form-control m-b">
-                                    <option value="AK1" selected="selected">宝马1系</option>
-                                    <option>宝马3系</option>
-                                    <option>宝马5系</option>
-                                    <option>宝马7系</option>
-                                    <option>宝马X3</option>
-                                    <option>宝马X5</option>
-                                    <option>宝马X6</option>
-                                    <option>宝马Z5</option>
-                                </select>
+                                <%--<select style="width: 260px; margin-left:20px;" name="car_name" id="car_name" class="form-control m-b">--%>
+                                    <%--<option value="AK1" selected="selected">宝马1系</option>--%>
+                                    <%--<option>宝马3系</option>--%>
+                                    <%--<option>宝马5系</option>--%>
+                                    <%--<option>宝马7系</option>--%>
+                                    <%--<option>宝马X3</option>--%>
+                                    <%--<option>宝马X5</option>--%>
+                                    <%--<option>宝马X6</option>--%>
+                                    <%--<option>宝马Z5</option>--%>
+                                <%--</select>--%>
                             </div>
                         </div>
                     </fieldset>
                     <fieldset>
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">里程数</label>
+                            <label class="col-sm-2 control-label">出厂年份</label>
                             <div class="col-sm-10">
                                 <input type="text" style="width: 260px; margin-left:20px;" name="car_mileage" id="car_mileage" placeholder="单位（万公里）"
                                        class="form-control">
@@ -305,7 +300,7 @@ $(document).ready(function(){
         <div class="overlay">
             <div class="ab-wrap">
                 <div class="ab-center text-center">
-                    <h3>大众汽车</h3>
+                    <h3>东风挖掘机</h3>
                     <p>$ 20.00</p>
                     <a href="images/photos/1.jpg" title="Shoes" class="btn btn-default gallery-image"
                        data-gallery="">详细查看</a>
@@ -321,7 +316,7 @@ $(document).ready(function(){
         <div class="overlay">
             <div class="ab-wrap">
                 <div class="ab-center text-center">
-                    <h3>大众汽车</h3>
+                    <h3>东风挖掘机</h3>
                     <p>$ 20.00</p>
                     <a href="images/photos/2.jpg" title="Formal" class="btn btn-default gallery-image"
                        data-gallery="">详细查看</a>
@@ -337,7 +332,7 @@ $(document).ready(function(){
         <div class="overlay">
             <div class="ab-wrap">
                 <div class="ab-center text-center">
-                    <h3>大众汽车</h3>
+                    <h3>东风挖掘机</h3>
                     <p>$ 20.00</p>
                     <a href="images/photos/3.jpg" title="Red" class="btn btn-default gallery-image"
                        data-gallery="">详细查看</a>
@@ -353,7 +348,7 @@ $(document).ready(function(){
         <div class="overlay">
             <div class="ab-wrap">
                 <div class="ab-center text-center">
-                    <h3>大众汽车</h3>
+                    <h3>东风挖掘机</h3>
                     <p>$ 20.00</p>
                     <a href="images/photos/4.jpg" title="Brown" class="btn btn-default gallery-image"
                        data-gallery="">详细查看</a>
@@ -369,7 +364,7 @@ $(document).ready(function(){
         <div class="overlay">
             <div class="ab-wrap">
                 <div class="ab-center text-center">
-                    <h3>大众汽车</h3>
+                    <h3>东风挖掘机</h3>
                     <p>$ 20.00</p>
                     <a href="images/photos/5.jpg" title="Leather" class="btn btn-default gallery-image"
                        data-gallery="">详细查看</a>
@@ -385,7 +380,7 @@ $(document).ready(function(){
         <div class="overlay">
             <div class="ab-wrap">
                 <div class="ab-center text-center">
-                    <h3>大众汽车</h3>
+                    <h3>东风挖掘机</h3>
                     <p>$ 20.00</p>
                     <a href="images/photos/6.jpg" title="Blue" class="btn btn-default gallery-image"
                        data-gallery="">详细查看</a>
@@ -401,7 +396,7 @@ $(document).ready(function(){
         <div class="overlay">
             <div class="ab-wrap">
                 <div class="ab-center text-center">
-                    <h3>大众汽车</h3>
+                    <h3>东风挖掘机</h3>
                     <p>$ 20.00</p>
                     <a href="images/photos/7.jpg" title="Sports" class="btn btn-default gallery-image"
                        data-gallery="">详细查看</a>
@@ -417,7 +412,7 @@ $(document).ready(function(){
         <div class="overlay">
             <div class="ab-wrap">
                 <div class="ab-center text-center">
-                    <h3>大众汽车</h3>
+                    <h3>东风挖掘机</h3>
                     <p>$ 20.00</p>
                     <a href="images/photos/8.jpg" title="Converse" class="btn btn-default gallery-image"
                        data-gallery="">详细查看</a>

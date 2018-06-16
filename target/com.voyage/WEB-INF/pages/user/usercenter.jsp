@@ -59,7 +59,7 @@
         <!-- START navbar header-->
         <div class="navbar-header">
             <a href="/page/index" class="navbar-brand">
-                <div class="brand-logo">东通二手车</div>
+                <div class="brand-logo">LL二手农机</div>
             </a></div>
         <!-- END navbar header-->
         <!-- START Nav wrapper-->

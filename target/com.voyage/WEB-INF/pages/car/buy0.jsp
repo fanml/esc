@@ -119,7 +119,7 @@ a {
 	<div class="shoubu_p">
 	<img alt="" src="images/dongtong2.png"style="width:50px;position:relative;left:-30px;top: 15px;">
 	<p>|</p>
-	<p class="logo" style="font:700 1.5em Raleway,Arial,Helvetica;position:relative;left:-60px;top:10px;">DongTong</p>
+	<p class="logo" style="font:700 1.5em Raleway,Arial,Helvetica;position:relative;left:-60px;top:10px;">LL</p>
 	<table class="backtable"style="font-weight: 600;">
 		<tr>
 			<td>
@@ -160,35 +160,31 @@ a {
         品牌
         <select name="car_brand">
             <option value="0">不限</option>
-            <option value="上汽大众">上汽大众</option>
-            <option value="大众(进口)">大众（进口）</option>
-            <option value="一汽n大众">一汽n大众</option>
+            <option value="上汽大众">东风农机</option>
+            <option value="大众(进口)">福田雷沃</option>
+            <option value="一汽n大众">五征</option>
         </select>
         车名
         <select name="car_name">
             <option value="0">不限</option>
-            <option value="迈特威">迈特威</option>
-            <option value="甲壳虫">甲壳虫</option>
-            <option value="朗逸">朗逸</option>
-            <option value="途安">途安</option>
-            <option value="凌渡">凌渡</option>
-            <option value="夏朗">夏朗</option>
-            <option value="尚酷">尚酷</option>
-            <option value="捷达">捷达</option>
-            <option value="速腾">速腾</option>
-            <option value="迈腾">迈腾</option>
+            <option value="迈特威">约翰迪尔</option>
+            <option value="甲壳虫">久保田</option>
+            <option value="朗逸">巨明</option>
+            <option value="途安">中联重机</option>
+            <option value="凌渡">中国一汽</option>
+
         </select>
         车型
         <select name="car_level">
             <option value="0">不限</option>
-            <option value="MPV">MPV</option>
-            <option value="豪华车">豪华车</option>
-            <option value="跑车">跑车</option>
-            <option value="紧凑型车">紧凑型车</option>
-            <option value="微型车">微型车</option>
-            <option value="中大型SUV">中大型SUV</option>
-            <option value="中型车">中型车</option>
-            <option value="小型车">小型车</option>
+            <option value="MPV">拖拉机</option>
+            <option value="豪华车">挖掘机</option>
+            <option value="跑车">播种车</option>
+            <option value="紧凑型车">农药车</option>
+            <option value="微型车">洒水车</option>
+            <option value="中大型SUV">大型农用车</option>
+            <option value="中型车">中型农用车</option>
+            <option value="小型车">小型农用车</option>
         </select>
         变速箱
         <select name="car_gearbox">
